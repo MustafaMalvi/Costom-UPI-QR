@@ -17,7 +17,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -q UpiQr-AndroidStudio-Project.zip -d extracted
+          unzip -q Costom_upi_qr.zip -d extracted
           test -f extracted/UpiQr/app/build.gradle.kts
 
       - name: Set up Java
